@@ -1,0 +1,36 @@
+vbody{
+    background-color: pink;
+    color: white;
+}
+.class0{
+    width: 640px;
+    height: 640px;
+    background-color: yellow;
+    margin: auto;
+}
+.black{
+    background-color: rgb(7, 7, 7);
+    width:80px;
+    height: 80px;
+    float: left;
+    color: white;
+    font-size: 50px;
+    transition: transform .2s;
+    text-align: center;
+}
+.white{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    float: left;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    transition: transform .6s;
+}
+.black:hover{
+    transform: scale(1.5);
+}
+.white:hover{
+    transform: scale(1.5);
+}
